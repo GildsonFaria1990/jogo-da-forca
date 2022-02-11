@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" media="screen" />
+    <title>Jogo da Forca</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="imagem"></div>
+      <div id="palavra-secreta"></div>
+
+      <div id="teclado">
+        <div class="teclas">
+          <button id="tecla-A" class="botao-letra">A</button>
+          <button id="tecla-B" class="botao-letra">B</button>
+          <button id="tecla-C" class="botao-letra">C</button>
+          <button id="tecla-D" class="botao-letra">D</button>
+          <button id="tecla-E" class="botao-letra">E</button>
+          <button id="tecla-F" class="botao-letra">F</button>
+          <button id="tecla-G" class="botao-letra">G</button>
+          <button id="tecla-H" class="botao-letra">H</button>
+          <button id="tecla-I" class="botao-letra">I</button>
+        </div>
+        <div class="teclas">
+          <button id="tecla-J" class="botao-letra">J</button>
+          <button id="tecla-K" class="botao-letra">K</button>
+          <button id="tecla-L" class="botao-letra">L</button>
+          <button id="tecla-M" class="botao-letra">M</button>
+          <button id="tecla-N" class="botao-letra">N</button>
+          <button id="tecla-O" class="botao-letra">O</button>
+          <button id="tecla-P" class="botao-letra">P</button>
+          <button id="tecla-Q" class="botao-letra">Q</button>
+          <button id="tecla-R" class="botao-letra">R</button>
+        </div>
+        <div class="teclas">
+          <button id="tecla-S" class="botao-letra">S</button>
+          <button id="tecla-T" class="botao-letra">T</button>
+          <button id="tecla-U" class="botao-letra">U</button>
+          <button id="tecla-V" class="botao-letra">V</button>
+          <button id="tecla-W" class="botao-letra">W</button>
+          <button id="tecla-X" class="botao-letra">X</button>
+          <button id="tecla-Y" class="botao-letra">Y</button>
+          <button id="tecla-Z" class="botao-letra">Z</button>
+          <button id="btnReiniciar">🎮</button>
+        </div>
+      </div>
+      <div id="categoria"></div>
+
+      <div
+        class="modal fade"
+        id="myModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-dismiss="modal"
+              >
+                Fechar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    >
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
